@@ -1,0 +1,61 @@
+* {
+    font-family: "Futura";
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.navigation li {
+    color: #fff;
+    display: inline-flex;
+    font-size: 20px;
+    padding: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: (20px, 0, 20px, 0);
+}
+
+h1 {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 40px 40px;
+    background-color: rgba( 0, 0, 0, 0.2);
+    color: white;
+    font-size: 20px;
+    line-height: .9;
+    vertical-align: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 600px;
+}
+
+.services {
+    background-color: #9697a9;
+    min-height: 600px;
+}
+
+.about {
+    background-color: #fff;
+    min-height: 600px;
+}
+
+.navigation li:hover {
+    background-color: rgba( 0, 0, 0, 0.5);
+}
